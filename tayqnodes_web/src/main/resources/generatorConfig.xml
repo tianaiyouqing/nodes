@@ -33,7 +33,7 @@
 		<!-- 配置3 -->
         <!-- targetPackage指定模型在生成在哪个包 ,targetProject指定项目的src,-->        
 		<javaModelGenerator targetPackage="org.tianai.nodes.pojo"
-			targetProject="nodes_web/src/main/java">
+			targetProject="tayqnodes_web/src/main/java">
 			<!-- 去除字段前后空格 -->
 			<property name="trimStrings" value="false" />
 		</javaModelGenerator>
@@ -42,11 +42,11 @@
 		<!-- 配置4 -->
 		<!-- 指定sql映射文件生成在哪个包 -->
 		<sqlMapGenerator targetPackage="org.tianai.nodes.mapper"
-			targetProject="nodes_web/src/main/java" />
+			targetProject="tayqnodes_web/src/main/java" />
 		
 		<!-- 配置5 -->
 		<!-- 指定接口生成在哪个包 -->
-		<javaClientGenerator type="XMLMAPPER" targetPackage="org.tianai.nodes.mapper" targetProject="nodes_web/src/main/java" />
+		<javaClientGenerator type="XMLMAPPER" targetPackage="org.tianai.nodes.mapper" targetProject="tayqnodes_web/src/main/java" />
 				
 		<!-- 配置6 -->
 		<!-- 配置表名称以及生成的shitiBean名称 -->
